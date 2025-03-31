@@ -1,4 +1,4 @@
-import oracledb
+
 
 conexao = oracledb.connect(user="rm561187", 
                            password="240805",
