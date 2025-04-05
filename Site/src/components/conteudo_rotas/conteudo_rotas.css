@@ -1,0 +1,88 @@
+/* conteudo_rotas.css */
+.main-content {
+  padding: 20px 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgb(2, 43, 119);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.route-item {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  gap: 15px;
+  padding: 12px 0;
+  position: relative;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(40%) sepia(13%) saturate(1273%) hue-rotate(176deg) brightness(92%) contrast(87%);
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(68%) sepia(61%) saturate(4572%) hue-rotate(358deg) brightness(103%) contrast(106%);
+}
+
+.route-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.station-name {  
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.line-number {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.address {
+  margin: 0;
+  font-size: 0.65rem;
+  color: #cacaca;
+  line-height: 1.4;
+}
+
+.route-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #edf2f7;
+  margin: 0 15px;
+}

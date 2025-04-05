@@ -1,0 +1,8 @@
+.botaoGradienteVerdeAzul {
+    background: linear-gradient(to right, #00F798, #3187FE);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
