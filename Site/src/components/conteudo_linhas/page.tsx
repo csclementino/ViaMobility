@@ -29,7 +29,7 @@ const LinhasStatus: React.FC = () => {
       cor: 'azul',
       status: 'Circulação de Trens',
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/empresa_metro_icone.png'
+      empresaAdmin: 'empresa_metro_icone.png'
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/empresa_metro_icone.png'
+      empresaAdmin: 'empresa_metro_icone.png'
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/empresa_metro_icone.png'
+      empresaAdmin: 'empresa_metro_icone.png'
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/viaquatro.png'
+      empresaAdmin: 'viaquatro.png'
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Linha_Lilas_Viamobilidade.png'
+      empresaAdmin: 'Linha_Lilas_Viamobilidade.png'
     },
     {
       id: 7,
@@ -74,7 +74,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
+      empresaAdmin: 'Cptm.png'
     },
     {
       id: 8,
@@ -83,7 +83,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/viamobilidade.png'
+      empresaAdmin: 'viamobilidade.png'
     },
     {
       id: 9,
@@ -92,7 +92,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/viamobilidade.png'
+      empresaAdmin: 'viamobilidade.png'
     },
     {
       id: 10,
@@ -101,7 +101,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
+      empresaAdmin: 'Cptm.png'
     },
     {
       id: 11,
@@ -110,7 +110,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
+      empresaAdmin: 'Cptm.png'
     },
     {
       id: 12,
@@ -119,7 +119,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
+      empresaAdmin: 'Cptm.png'
     },
     {
       id: 13,
@@ -128,16 +128,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
-    },
-    {
-      id: 13.1,
-      nome: 'Jade-Expresso Aeroporto',
-      cor: 'turquesa',
-      status: 'Operação Normal',
-      next: "15",
-      capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/Cptm.png'
+      empresaAdmin: 'Cptm.png'
     },
     {
       id: 15,
@@ -146,7 +137,7 @@ const LinhasStatus: React.FC = () => {
       status: 'Operação Normal',
       next: "15",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-      empresaAdmin: '/empresa_metro_icone.png'
+      empresaAdmin: 'empresa_metro_icone.png'
     },
   ]);
 
