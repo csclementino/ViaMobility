@@ -46,7 +46,7 @@ const MainContent: React.FC = () => {
         {favorites.map((item, index) => (
           <div key={index} className="route-item">
             <div className="icon-container">
-              <img src="/localizacao.png" alt="Localização" className="location-icon" />
+              <img src="localizacao.png" alt="Localização" className="location-icon" />
             </div>
             <div className="route-info">
               <div className="header-line">
@@ -56,7 +56,7 @@ const MainContent: React.FC = () => {
               <p className="address">{item.address}</p>
             </div>
             <div className="icon-container">
-              <img src="/estrela.png" alt="Favorito" className="favorite-icon" />
+              <img src="estrela.png" alt="Favorito" className="favorite-icon" />
             </div>
             {index < favorites.length - 1 && <div className="route-divider" />}
           </div>
@@ -68,7 +68,7 @@ const MainContent: React.FC = () => {
         {recents.map((item, index) => (
           <div key={index} className="route-item">
             <div className="icon-container">
-              <img src="/localizacao.png" alt="Localização" className="location-icon" />
+              <img src="localizacao.png" alt="Localização" className="location-icon" />
             </div>
             <div className="route-info">
               <div className="header-line">
@@ -78,7 +78,7 @@ const MainContent: React.FC = () => {
               <p className="address">{item.address}</p>
             </div>
             <div className="icon-container">
-              <img src="/estrela.png" alt="Favorito" className="favorite-icon" />
+              <img src="estrela.png" alt="Favorito" className="favorite-icon" />
             </div>
             {index < recents.length - 1 && <div className="route-divider" />}
           </div>

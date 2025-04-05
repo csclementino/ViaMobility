@@ -13,7 +13,7 @@ const ProfileScreen = () => {
 
   const [user, setUser] = useState<UserProfile>({
     id: '1',
-    profileImage: '/icone_usuario.png',
+    profileImage: 'icone_usuario.png',
     firstName: 'Nome',
     lastName: 'Sobrenome',
     phone: '1199994455',

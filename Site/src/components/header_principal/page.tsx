@@ -11,7 +11,7 @@ const Header_Principal = () => {
   return (
     <header className="header">
       <div className="header-banner">
-      <img src="/banner_tela_principal.png" className ="header-banner"/>
+      <img src="banner_tela_principal.png" className ="header-banner"/>
       </div>
       <div className="header-content">
         <SearchBar onSearch={handleSearch} />
