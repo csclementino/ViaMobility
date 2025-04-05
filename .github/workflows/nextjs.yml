@@ -69,10 +69,6 @@ jobs:
         working-directory: Site
         run: ${{ steps.detect-package-manager.outputs.runner }} next build --no-lint
 
-      - name: Export static files
-        working-directory: Site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
