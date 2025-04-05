@@ -237,7 +237,7 @@ const LinhasStatus: React.FC = () => {
                   <h3>Próximo metrô (sentido Itapevi) <br /> {linha.next}</h3>
                   <div className="trem-container">
                     <img
-                      src="/grupo_trem.png"
+                      src="grupo_trem.png"
                       alt="Composição do trem"
                       className="imagem-trem"
                     />
