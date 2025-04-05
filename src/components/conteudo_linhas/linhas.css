@@ -1,0 +1,154 @@
+/* LinhasStatus.css */
+.linhas-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .status-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .status-header h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+  
+  .atualizacao {
+    color: #adadad;
+    font-size: 0.95rem;
+  }
+  
+  .lista-linhas {
+    border-radius: 12px;
+    padding: 15px;
+  }
+  
+  .linha-item {
+    margin: 15px 0;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cabecalho-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background: #f8f8f8;
+    transition: background 0.3s;
+  }
+  
+  .cabecalho-linha:hover {
+    background: #f0f0f0;
+  }
+  
+  .info-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .icone-empresa {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+  
+  .indicador-status {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  .indicador-status.verde { background-color: #00c853; }
+  .indicador-status.vermelho { background-color: #d50000; }
+  
+  .numero-linha {
+    font-weight: 700;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .nome-linha {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .controles-direita {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .seta {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #666;
+    transition: transform 0.3s;
+  }
+  
+  .seta.aberta {
+    transform: rotate(180deg);
+  }
+  
+  .detalhes-linha {
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #eee;
+  }
+  
+  .status-capacidade {
+    margin-bottom: 20px;
+  }
+  
+  .status-capacidade h3 {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .proximo-trem h3 {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .trem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .imagem-trem {
+    width: 30px;
+    height: auto;
+  }
+  
+  .tabela-lotacao {
+    width: 200px;
+    border-collapse: collapse;
+  }
+  
+  .tabela-lotacao td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .tabela-lotacao td:first-child {
+    color: #666;
+  }
+  
+  .tabela-lotacao td:last-child {
+    font-weight: bold;
+    color: #333;
+  }
