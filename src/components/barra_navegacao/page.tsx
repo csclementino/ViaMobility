@@ -4,7 +4,7 @@ import './navegacao.css';
 const Navegacao: React.FC = () => {
   return (
     <nav className="nav">
-      <a href="/pagina_linhas" className="nav-link">
+      <a href="pagina_linhas" className="nav-link">
         <img src="/icone_linhas.png" className="nav-icon" alt="Linhas"/>
         <span className="nav-text">Linhas</span>
       </a>
