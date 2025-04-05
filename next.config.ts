@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+const isGithubPages = process.env.NODE_ENV === 'production';
+const repo = 'teste'; // substitua pelo nome do seu repositório
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export',
+  basePath: isGithubPages ? `/${repo}` : '',
+  assetPrefix: isGithubPages ? `/${repo}/` : '',
 };
 
 export default nextConfig;
