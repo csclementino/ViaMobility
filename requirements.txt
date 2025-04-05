@@ -1,4 +1,1 @@
-oracledb
-flask
-flask-cors
-requests
+
