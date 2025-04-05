@@ -27,6 +27,7 @@ const LinhasStatus: React.FC = () => {
       id: 1,
       nome: 'Azul',
       cor: 'azul',
+      next: "Carregando...",
       status: 'Circulação de Trens',
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'empresa_metro_icone.png'
@@ -36,7 +37,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Verde',
       cor: 'verde',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'empresa_metro_icone.png'
     },
@@ -45,7 +46,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Vermelha',
       cor: 'vermelha',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'empresa_metro_icone.png'
     },
@@ -54,7 +55,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Amarela',
       cor: 'amarela',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'viaquatro.png'
     },
@@ -63,7 +64,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Lilás',
       cor: 'lilas',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Linha_Lilas_Viamobilidade.png'
     },
@@ -72,7 +73,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Rubi',
       cor: 'rubi',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Cptm.png'
     },
@@ -81,7 +82,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Diamante',
       cor: 'diamante',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'viamobilidade.png'
     },
@@ -90,7 +91,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Esmeralda',
       cor: 'esmeralda',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'viamobilidade.png'
     },
@@ -99,7 +100,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Turquesa',
       cor: 'turquesa',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Cptm.png'
     },
@@ -108,7 +109,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Coral',
       cor: 'coral',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Cptm.png'
     },
@@ -117,7 +118,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Safira',
       cor: 'safira',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Cptm.png'
     },
@@ -126,7 +127,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Jade',
       cor: 'jade',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'Cptm.png'
     },
@@ -135,7 +136,7 @@ const LinhasStatus: React.FC = () => {
       nome: 'Prata',
       cor: 'prata',
       status: 'Operação Normal',
-      next: "15",
+      next: "Carregando...",
       capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
       empresaAdmin: 'empresa_metro_icone.png'
     },
@@ -176,7 +177,7 @@ const LinhasStatus: React.FC = () => {
           return {
             ...linha,
             status: statusDaLinha,
-            next: linha.id === 1 ? horaPrevista : linha.next // só atualiza next para a linha 1
+            next: linha.id === 8 ? horaPrevista : linha.next // só atualiza next para a linha 1
           };
         });
   
