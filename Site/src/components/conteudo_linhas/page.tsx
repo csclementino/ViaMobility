@@ -146,11 +146,11 @@ const LinhasStatus: React.FC = () => {
     const fetchDados = async () => {
       try {
         // Chamada para API de linhas
-        const responseLinhas = await fetch('https://stunning-lamp-q7pvpv95g59vf6xgp-8501.app.github.dev/api/linhas');
+        const responseLinhas = await fetch('ccrviafast-production.up.railway.app/api/linhas');
         const dataLinhas = await responseLinhas.json();
   
         // Chamada para API de trem
-        const responseTrem = await fetch('https://stunning-lamp-q7pvpv95g59vf6xgp-8501.app.github.dev/api/trem');
+        const responseTrem = await fetch('ccrviafast-production.up.railway.app/api/trem');
         const dataTrem = await responseTrem.json();
         const horaPrevista = dataTrem.hora_previsto_chegada;
   
